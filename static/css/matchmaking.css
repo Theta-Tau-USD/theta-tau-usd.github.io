@@ -1,0 +1,40 @@
+.matchmaking-hero {
+    margin-bottom: 0;
+}
+
+.matchmaking-section {
+    margin-top: 2.5rem;
+}
+
+.matchmaking-form .form-text {
+    color: #6c757d;
+}
+
+.matchmaking-results {
+    min-height: 140px;
+}
+
+.match-card {
+    border: 2px solid rgba(200, 16, 46, 0.12);
+}
+
+.match-score {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--theta-red);
+}
+
+.match-empty {
+    border: 2px dashed #D9DEE3;
+    padding: 32px;
+    border-radius: 16px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.matchmaking-note {
+    background: #fff7df;
+    border-radius: 14px;
+    padding: 20px;
+    border: 1px solid rgba(255, 199, 44, 0.4);
+}

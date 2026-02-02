@@ -1,0 +1,150 @@
+{
+    "badges": [
+        {
+            "id": "brotherhood-artistic",
+            "name": "Artistic",
+            "pillar": "brotherhood",
+            "icon": "static/images/badges/brotherhood-artistic.png"
+        },
+        {
+            "id": "brotherhood-fitness",
+            "name": "Fitness",
+            "pillar": "brotherhood",
+            "icon": "static/images/badges/brotherhood-fitness.png"
+        },
+        {
+            "id": "brotherhood-og",
+            "name": "Brotherhood",
+            "pillar": "brotherhood",
+            "icon": "static/images/badges/brotherhood-og.png"
+        },
+        {
+            "id": "brotherhood-outdoors",
+            "name": "Outdoors",
+            "pillar": "brotherhood",
+            "icon": "static/images/badges/brotherhood-outdoors.png"
+        },
+        {
+            "id": "profession-career",
+            "name": "Career Development",
+            "pillar": "professionalism",
+            "icon": "static/images/badges/profession-career.png"
+        },
+        {
+            "id": "profession-finance",
+            "name": "Finance",
+            "pillar": "professionalism",
+            "icon": "static/images/badges/profession-finance.png"
+        },
+        {
+            "id": "profession-og",
+            "name": "Professionalism",
+            "pillar": "professionalism",
+            "icon": "static/images/badges/profession-og.png"
+        },
+        {
+            "id": "profession-technical",
+            "name": "Technical Skills",
+            "pillar": "professionalism",
+            "icon": "static/images/badges/profession-technical.png"
+        },
+        {
+            "id": "service-community",
+            "name": "Community Service",
+            "pillar": "service",
+            "icon": "static/images/badges/service-community.png"
+        },
+        {
+            "id": "service-environment",
+            "name": "Environmental",
+            "pillar": "service",
+            "icon": "static/images/badges/service-environment.png"
+        },
+        {
+            "id": "service-og",
+            "name": "Service",
+            "pillar": "service",
+            "icon": "static/images/badges/service-og.png"
+        },
+        {
+            "id": "service-outreach",
+            "name": "Outreach",
+            "pillar": "service",
+            "icon": "static/images/badges/service-outreach.png"
+        }
+    ],
+    "brothers": [
+        {
+            "name": "Avery Chen",
+            "year": "Junior",
+            "major": "Mechanical Engineering",
+            "photo": "static/images/exec-placeholder.svg",
+            "description": "Robotics builder who loves CAD, hiking in Torrey Pines, and mentoring first-year engineers. Looking to connect over design projects and outdoor adventures.",
+            "badges": [
+                "brotherhood-outdoors",
+                "profession-technical",
+                "service-environment"
+            ]
+        },
+        {
+            "name": "Luis Ramirez",
+            "year": "Senior",
+            "major": "Electrical Engineering",
+            "photo": "static/images/exec-placeholder.svg",
+            "description": "Embedded systems, signal processing, and pickup soccer. Excited to help PNMs explore labs, internships, and service projects.",
+            "badges": [
+                "brotherhood-fitness",
+                "profession-technical",
+                "service-community"
+            ]
+        },
+        {
+            "name": "Maya Patel",
+            "year": "Sophomore",
+            "major": "Computer Engineering",
+            "photo": "static/images/exec-placeholder.svg",
+            "description": "Creative coder with a love for music, UI design, and outreach. Always down to jam, prototype, and plan community workshops.",
+            "badges": [
+                "brotherhood-artistic",
+                "profession-career",
+                "service-outreach"
+            ]
+        },
+        {
+            "name": "Jordan Smith",
+            "year": "Graduate",
+            "major": "Civil Engineering",
+            "photo": "static/images/exec-placeholder.svg",
+            "description": "Project management, sustainable infrastructure, and volunteering on the weekends. Passionate about community build days and green design.",
+            "badges": [
+                "service-environment",
+                "service-community",
+                "profession-career"
+            ]
+        },
+        {
+            "name": "Riley Nguyen",
+            "year": "Senior",
+            "major": "Mechanical Engineering",
+            "photo": "static/images/exec-placeholder.svg",
+            "description": "Operations and budgeting nerd who keeps the chapter on track. I love coffee chats about finance, planning, and brotherhood traditions.",
+            "badges": [
+                "profession-finance",
+                "brotherhood-og",
+                "service-og"
+            ]
+        },
+        {
+            "name": "Elena Torres",
+            "year": "Junior",
+            "major": "Industrial & Systems Engineering",
+            "photo": "static/images/exec-placeholder.svg",
+            "description": "Process improvement, leadership training, and mentoring new members. Let’s talk internships, professional growth, and outreach events.",
+            "badges": [
+                "profession-og",
+                "brotherhood-og",
+                "service-outreach"
+            ]
+        }
+    ]
+}

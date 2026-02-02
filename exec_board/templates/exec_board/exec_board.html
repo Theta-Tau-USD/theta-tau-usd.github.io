@@ -1,0 +1,53 @@
+{% extends 'matchmaking/base.html' %}
+{% load static %}
+
+{% block title %}Exec Board{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="container text-center">
+        <h1 class="display-5 fw-bold mb-3">Executive Board</h1>
+        <p class="lead mb-0">Meet the team guiding Theta Tau's chapter vision.</p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="row g-4 justify-content-center">
+        {% for member in exec_members %}
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <div class="card-body text-center p-4">
+                        <div class="exec-photo mx-auto mb-3">
+                            <img src="{% static member.photo %}" alt="{{ member.name }} headshot">
+                        </div>
+                        <h5 class="fw-bold mb-1">{{ member.name }}</h5>
+                        <span class="badge badge-gold mb-2">{{ member.position }}</span>
+                        <p class="text-muted mb-2">{{ member.major }}</p>
+                        <p class="mb-0">{{ member.bio }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    .exec-photo {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        border: 4px solid rgba(255, 199, 44, 0.5);
+        overflow: hidden;
+        background-color: #FFFFFF;
+    }
+
+    .exec-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+</style>
+{% endblock %}

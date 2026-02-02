@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USD Theta Tau | Matchmaking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="static/images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/css/site.css">
+    <link rel="stylesheet" href="static/css/badges.css">
+    <link rel="stylesheet" href="static/css/exec-board.css">
+    <link rel="stylesheet" href="static/css/matchmaking.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ΘΤ Theta Tau</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exec-board.html">Exec Board</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recruitment.html">Recruitment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="matchmaking.html">Matchmaking</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero-section matchmaking-hero text-center">
+            <div class="container">
+                <h1 class="display-4 fw-bold mb-3">Brother Matchmaking</h1>
+                <p class="lead mb-3">Connect PNMs with brothers who share their interests, goals, and passions.</p>
+                <p class="fs-6">This demo uses static data files so it can run on GitHub Pages.</p>
+            </div>
+        </section>
+
+        <div class="content-wrapper">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body p-4">
+                            <div class="mb-3" style="font-size: 3rem; color: var(--theta-red);">👤</div>
+                            <h4 class="fw-bold mb-3">Admins</h4>
+                            <p class="text-muted mb-4">Use the static data files to update brothers, badges, and exec board details.</p>
+                            <a href="#demo" class="btn btn-primary w-100">Jump to the Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body p-4">
+                            <div class="mb-3" style="font-size: 3rem; color: var(--theta-red);">🤝</div>
+                            <h4 class="fw-bold mb-3">Brothers</h4>
+                            <p class="text-muted mb-4">Update your profile in the JSON roster to appear in the match results.</p>
+                            <a href="#brother-roster-section" class="btn btn-primary w-100">View the Roster</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body p-4">
+                            <div class="mb-3" style="font-size: 3rem; color: var(--theta-gold);">⭐</div>
+                            <h4 class="fw-bold mb-3">PNMs</h4>
+                            <p class="text-muted mb-4">Try the matchmaking form to see your top three brothers instantly.</p>
+                            <a href="#demo" class="btn btn-secondary w-100">Start Matching</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="matchmaking-section">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <h4 class="fw-bold mb-3 text-center">How It Works</h4>
+                        <div class="row">
+                            <div class="col-md-4 text-center mb-3">
+                                <div class="fs-1 mb-2">📝</div>
+                                <h6 class="fw-bold">Step 1: Create Profile</h6>
+                                <p class="small text-muted">Share your interests, goals, and passions.</p>
+                            </div>
+                            <div class="col-md-4 text-center mb-3">
+                                <div class="fs-1 mb-2">🔍</div>
+                                <h6 class="fw-bold">Step 2: Smart Matching</h6>
+                                <p class="small text-muted">The demo scores similarities using keyword matching.</p>
+                            </div>
+                            <div class="col-md-4 text-center mb-3">
+                                <div class="fs-1 mb-2">☕</div>
+                                <h6 class="fw-bold">Step 3: Connect</h6>
+                                <p class="small text-muted">Schedule coffee chats with the best-fit brothers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="demo" class="matchmaking-section">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <h3 class="fw-bold mb-2">Matchmaking Demo</h3>
+                        <p class="text-muted">Complete the form to see the top three matches from the static roster.</p>
+                        <form id="matchmaking-form" class="matchmaking-form">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <label class="form-label" for="pnmName">Name</label>
+                                    <input class="form-control" id="pnmName" name="pnmName" placeholder="Alex Rivera" required>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label" for="pnmYear">Year</label>
+                                    <select class="form-select" id="pnmYear" name="pnmYear" required>
+                                        <option value="" selected disabled>Select year</option>
+                                        <option value="Freshman">Freshman</option>
+                                        <option value="Sophomore">Sophomore</option>
+                                        <option value="Junior">Junior</option>
+                                        <option value="Senior">Senior</option>
+                                        <option value="Graduate">Graduate</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label" for="pnmMajor">Major</label>
+                                    <input class="form-control" id="pnmMajor" name="pnmMajor" placeholder="Mechanical Engineering" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label" for="pnmDescription">Describe your interests</label>
+                                    <textarea class="form-control" id="pnmDescription" name="pnmDescription" rows="4" placeholder="Tell us about your hobbies, career goals, and what you want out of a brother connection." required></textarea>
+                                    <div class="form-text">Aim for 2-3 sentences so the matching demo has enough detail.</div>
+                                </div>
+                            </div>
+
+                            <div class="badges-container mt-4">
+                                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                                    <h5 class="fw-bold mb-2">Choose badges that match your interests</h5>
+                                    <span class="badges-help-text">These tags help the demo prioritize shared pillars.</span>
+                                </div>
+                                <div id="badge-grid" class="badge-grid-3col"></div>
+                            </div>
+
+                            <div class="d-flex justify-content-end mt-4">
+                                <button type="submit" class="btn btn-primary">Find My Matches</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="matchmaking-section">
+                <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                    <h3 class="fw-bold mb-0">Your Top Matches</h3>
+                    <span id="match-results-note" class="text-muted d-none"></span>
+                </div>
+                <div id="match-results" class="row g-4 matchmaking-results"></div>
+            </div>
+
+            <div id="brother-roster-section" class="matchmaking-section">
+                <div class="d-flex align-items-center justify-content-between flex-wrap mb-3">
+                    <h3 class="fw-bold mb-0">Brother Roster</h3>
+                    <span class="text-muted">Update <code>data/matchmaking.json</code> to change this list.</span>
+                </div>
+                <div class="row g-4" id="brother-roster-grid"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="mb-0">© 2026 Theta Tau - University of San Diego | Brotherhood through Excellence</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/js/matchmaking.js" defer></script>
+</body>
+</html>
