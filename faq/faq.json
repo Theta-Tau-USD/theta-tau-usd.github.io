@@ -2,5 +2,13 @@
     {
         "question": "How can I join the Fraternity?",
         "answer": "You need to rush a semester, ..."
+    },
+    {
+        "question": "What are the benefits of joining?",
+        "answer": "You will gain lifelong friendships, networking opportunities, and personal growth."
+    },
+    {
+        "question": "Are there any academic requirements to join?",
+        "answer": "Yes, you must maintain a minimum GPA of 2.5 to be eligible for membership."
     }
 ]
