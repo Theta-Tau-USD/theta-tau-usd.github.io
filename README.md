@@ -1,42 +1,101 @@
 # USD Theta Tau Website
 
-Welcome! This is the static website for the USD Theta Tau chapter. It’s all HTML/CSS/JS and doesn’t need a build step.
+Static website for the USD Theta Tau chapter. The site is plain HTML, CSS, and JavaScript with no build step.
 
-## How the site works
-- Pages are plain HTML files: `index.html`, `directory/index.html`, `recruitment/index.html`, `faq/index.html`.
-- Shared styles live in `assets/css/` and shared scripts in `assets/js/`.
-- Images live in `assets/img/` and are organized by page:
-  - `assets/img/home/` (home page photos + company logos)
-  - `assets/img/directory/` (member directory photos)
-  - `assets/img/recruitment/` (recruitment-specific images; empty for now)
-  - `assets/img/shared/` (shared assets like `icon.ico`)
-- The directory page loads data from `directory/members.json` via `assets/js/directory.js` and renders cards on page load.
+## Structure
+- `index.html`: home page
+- `directory/index.html`: member directory
+- `recruitment/index.html`: recruitment page
+- `faq/index.html`: FAQ page
+- `faq/faq.json`: FAQ content
+- `directory/members.json`: member directory data
+- `assets/css/`: shared and page-specific styles
+- `assets/js/`: page scripts
+- `assets/img/`: images grouped by area
+
+## Current pages
+- Home
+- Brothers directory
+- Recruitment
+- FAQ
+
+The old exec board page has been removed from this repo.
+
+## Directory
+The directory page is driven by `directory/members.json` and rendered by `assets/js/directory.js`.
+
+Each member entry currently includes:
+- `name`
+- `photo`
+- `linkedin`
+- `github` when available
+- `email`
+- `major`
+- `graduationYear`
+- `inductionSeason`
+- `inductionSortKey`
+
+Directory behavior:
+- Members display as responsive cards
+- The induction season dropdown filters to a specific class such as `Fall 2025` or `Spring 2024`
+- Cards are otherwise shown in most-recent induction-season-first order
+
+## Images
+Image folders in active use:
+- `assets/img/home/`: home page images and company logos
+- `assets/img/directory/`: local member headshots
+- `assets/img/shared/`: shared assets like `icon.ico` and the profile placeholder
+
+Directory headshots:
+- Are stored locally in `assets/img/directory/`
+- Use lowercase kebab-case filenames such as `grace-morgan.jpg`
+- Have been resized to web-friendly dimensions
+
+## Updating content
+Home page:
+- Edit `index.html`
+
+Directory members:
+- Edit `directory/members.json`
+- Keep image paths relative to `directory/index.html`, for example `../assets/img/directory/grace-morgan.jpg`
+- Keep induction seasons consistent, for example `Fall 2025`
+
+FAQ:
+- Edit `faq/faq.json`
+
+Recruitment:
+- Edit `recruitment/index.html`
 
 ## Local preview
-You can open any HTML file directly in a browser:
-- `index.html`
-- `directory/index.html`
-- `recruitment/index.html`
-- `faq/index.html`
+Because the directory and FAQ pages fetch JSON, use a local HTTP server instead of opening the files directly in the browser.
 
-## Content updates
-- Home page copy and images: edit `index.html`.
-- Directory members: edit `directory/members.json`.
-- Recruitment page copy: edit `recruitment/index.html`.
-- FAQ entries: edit `faq/faq.json`.
+Example:
 
-## Image guidelines
-- Put page-specific images under the matching folder in `assets/img/`.
-- Update HTML/CSS paths accordingly (paths are relative to the file).
-- Keep filenames lowercase and avoid spaces.
+```bash
+python3 -m http.server 8000
+```
 
-## Contributing
-Thanks for helping out! A typical workflow:
-1) Create a new branch.
-2) Make your changes.
-3) Open the pages in a browser and sanity-check the layout.
-4) Open a pull request with a short summary (screenshots appreciated if the UI changed).
+Then open:
+- `http://localhost:8000/`
+- `http://localhost:8000/directory/`
+- `http://localhost:8000/recruitment/`
+- `http://localhost:8000/faq/`
 
-## Common pitfalls
-- Broken relative paths after moving files: double-check `../` levels.
-- Mixing shared and page-specific images: keep them in their respective folders.
+## Editing guidelines
+- Keep filenames lowercase and avoid spaces for repo assets
+- Double-check relative paths when moving files
+- Put shared images in `assets/img/shared/`
+- Put directory headshots in `assets/img/directory/`
+- Validate JSON after editing structured data files
+
+Useful checks:
+
+```bash
+python3 -m json.tool directory/members.json >/dev/null
+python3 -m json.tool faq/faq.json >/dev/null
+node --check assets/js/directory.js
+node --check assets/js/faq.js
+```
+
+## Deployment note
+This repo is configured for GitHub Pages and includes `CNAME` for the custom domain.
