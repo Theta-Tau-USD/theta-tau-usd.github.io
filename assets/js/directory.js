@@ -2,7 +2,7 @@ const directoryGrid = document.querySelector('#directory-grid');
 const directoryError = document.querySelector('#directory-error');
 const directorySort = document.querySelector('#directory-sort');
 const directoryCount = document.querySelector('#directory-count');
-const fallbackPhoto = '../assets/img/exec-board/exec-placeholder.svg';
+const fallbackPhoto = '../assets/img/shared/profile-placeholder.svg';
 
 const state = {
     members: []
