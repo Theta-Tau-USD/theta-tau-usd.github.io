@@ -1,5 +1,16 @@
 [
   {
+    "id": 25,
+    "name": "Brooklyn Marchiondo",
+    "graduationYear": 2028,
+    "major": "Industrial and Systems Engineering, Concentration in Sustainability",
+    "inductionSeason": "Fall 2025",
+    "inductionSortKey": 20253,
+    "linkedin": "https://www.linkedin.com/in/brooklyn-marchiondo-3055413b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "photo": "../assets/img/directory/brooklyn-marchiondo.jpg",
+    "email": "bmarchiondo@sandiego.edu"
+  },
+  {
     "id": 18,
     "name": "Grace Morgan",
     "graduationYear": 2027,
@@ -9,6 +20,17 @@
     "linkedin": "https://www.linkedin.com/in/grace-morgan-512ab0382/",
     "photo": "../assets/img/directory/grace-morgan.jpg",
     "email": "gxmorgan@sandiego.edu"
+  },
+  {
+    "id": 26,
+    "name": "Jakson Te",
+    "graduationYear": 2028,
+    "major": "Electrical Engineering, Minor in Mathematics",
+    "inductionSeason": "Fall 2025",
+    "inductionSortKey": 20253,
+    "linkedin": "https://www.linkedin.com/in/jaksonte?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "photo": "../assets/img/directory/jakson-te.jpg",
+    "email": "jaksonte@sandiego.edu"
   },
   {
     "id": 8,
@@ -58,7 +80,7 @@
     "id": 11,
     "name": "Thomas Forster",
     "graduationYear": 2027,
-    "major": "Mechanical Engineering",
+    "major": "Mechanical Engineering, Minor in German",
     "inductionSeason": "Fall 2025",
     "inductionSortKey": 20253,
     "linkedin": "https://www.linkedin.com/in/thomas-forster-145695351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
