@@ -1,5 +1,27 @@
 [
   {
+    "id": 29,
+    "name": "Amanda Moreno",
+    "graduationYear": 2028,
+    "major": "Electrical Engineering, Minor in Mathematics",
+    "inductionSeason": "Spring 2026",
+    "inductionSortKey": 20261,
+    "linkedin": "https://www.linkedin.com/in/amandamoreno0602",
+    "photo": "../assets/img/directory/amanda-moreno.jpeg",
+    "email": "amandamoreno@sandiego.edu"
+  },
+  {
+    "id": 31,
+    "name": "Izzy King",
+    "graduationYear": 2028,
+    "major": "Mechanical Engineering, Minor in Environmental and Ocean Sciences",
+    "inductionSeason": "Spring 2026",
+    "inductionSortKey": 20261,
+    "linkedin": "https://www.linkedin.com/in/isabelleking8",
+    "photo": "../assets/img/directory/izzy-king.jpeg",
+    "email": "isabelleking@sandiego.edu"
+  },
+  {
     "id": 25,
     "name": "Brooklyn Marchiondo",
     "graduationYear": 2028,
@@ -75,6 +97,17 @@
     "linkedin": "https://www.linkedin.com/in/taneesh-reddy-b9a03b25b?trk=public_post_feed-actor-image",
     "photo": "../assets/img/directory/taneesh-reddy.jpg",
     "email": "treddy@sandiego.edu"
+  },
+  {
+    "id": 27,
+    "name": "Jaxson Greene",
+    "graduationYear": 2027,
+    "major": "Mechanical Engineering",
+    "inductionSeason": "Fall 2025",
+    "inductionSortKey": 20253,
+    "linkedin": "https://www.linkedin.com/in/jaxson-greene-442a04334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    "photo": "../assets/img/directory/jaxson-greene.png",
+    "email": "jgreene@sandiego.edu"
   },
   {
     "id": 11,
@@ -154,6 +187,17 @@
     "email": "smatsis@sandiego.edu"
   },
   {
+    "id": 28,
+    "name": "Antonio Rodriguez",
+    "graduationYear": 2027,
+    "major": "Mechanical Engineering, Physics",
+    "inductionSeason": "Fall 2024",
+    "inductionSortKey": 20243,
+    "linkedin": "https://www.linkedin.com/in/antonio-rodriguez-bb2b03296",
+    "photo": "../assets/img/directory/antonio-rodriguez.jpeg",
+    "email": "antoniorodriguez@sandiego.edu"
+  },
+  {
     "id": 2,
     "name": "Christian Vaikona",
     "graduationYear": 2027,
@@ -199,6 +243,28 @@
     "github": "https://github.com/AndrewAlbizati",
     "photo": "../assets/img/directory/andrew-albizati.jpg",
     "email": "aalbizati@sandiego.edu"
+  },
+  {
+    "id": 30,
+    "name": "Isaiah Moore",
+    "graduationYear": 2027,
+    "major": "Mechanical Engineering",
+    "inductionSeason": "Spring 2024",
+    "inductionSortKey": 20241,
+    "linkedin": "https://www.linkedin.com/in/isaiah-moore-92403a352?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "photo": "../assets/img/directory/isaiah-moore.png",
+    "email": "imoore@sandiego.edu"
+  },
+  {
+    "id": 32,
+    "name": "Kaitlin Divinsky",
+    "graduationYear": 2026,
+    "major": "Mechanical Engineering",
+    "inductionSeason": "Spring 2024",
+    "inductionSortKey": 20241,
+    "linkedin": "https://www.linkedin.com/in/kaitlin-divinsky",
+    "photo": "../assets/img/directory/kaitlin-divinsky.png",
+    "email": "kdivinsky@sandiego.edu"
   },
   {
     "id": 19,
