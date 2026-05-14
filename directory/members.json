@@ -22,6 +22,17 @@
     "email": "isabelleking@sandiego.edu"
   },
   {
+    "id": 32,
+    "name": "Zachary Letcher",
+    "graduationYear": 2025,
+    "major": "Computer Science, Minor in Leadership Studies",
+    "inductionSeason": "Fall 2023",
+    "inductionSortKey": 20233,
+    "linkedin": "https://www.linkedin.com/in/zach-letcher/",
+    "photo": "../assets/img/directory/zachary-letcher.jpg",
+    "email": "zletcher@sandiego.edu"
+  },
+  {
     "id": 25,
     "name": "Brooklyn Marchiondo",
     "graduationYear": 2028,
@@ -311,17 +322,6 @@
     "linkedin": "https://www.linkedin.com/in/wolfgang-reighard-876361334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     "photo": "../assets/img/directory/wolfgang-reighard.jpg",
     "email": "wreighard@sandiego.edu"
-  },
-  {
-    "id": 14,
-    "name": "Giovanni McClure",
-    "graduationYear": 2028,
-    "major": "Mechanical Engineering",
-    "inductionSeason": "Fall 2023",
-    "inductionSortKey": 20233,
-    "linkedin": "https://www.linkedin.com/in/giovanni-mcclure-6922672ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    "photo": "../assets/img/directory/giovanni-mcclure.jpg",
-    "email": "gnmcclure23@gmail.com"
   },
   {
     "id": 12,
