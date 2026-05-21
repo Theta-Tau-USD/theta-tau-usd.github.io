@@ -66,6 +66,9 @@ FAQ:
 Recruitment:
 - Edit `recruitment/index.html`
 
+Helper script:
+- Use `python3 scripts/add_member.py --help` to add a member record and optionally copy the headshot into `assets/img/directory/`
+
 ## Local preview
 Because the directory and FAQ pages fetch JSON, use a local HTTP server instead of opening the files directly in the browser.
 

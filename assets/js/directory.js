@@ -36,7 +36,7 @@ const renderSocialLinks = (member) => {
     }
 
     if (!links.length) {
-        return '<p class="mb-0 text-muted">No social profiles listed.</p>';
+        return '';
     }
 
     return `<div class="member-actions">${links.join('')}</div>`;
