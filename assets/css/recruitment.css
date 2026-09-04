@@ -1,3 +1,8 @@
+/* Body copy in the "Why Rush" and "What Is Rush" sections. Change this one value to resize it. */
+.rush-text {
+    font-size: 1.1rem;
+}
+
 .rush-image {
     width: 100%;
     border-radius: 15px;
