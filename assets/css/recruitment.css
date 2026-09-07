@@ -15,6 +15,35 @@
     margin: 0 auto;
 }
 
+/* Trims the photo evenly top and bottom so it matches the height of the text
+   beside it. Change this one value to crop more or less. */
+.rush-photo {
+    height: 330px;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .rush-photo {
+        height: auto;
+    }
+}
+
+/* Gallery strip. All three photos share one height so the row stays even. */
+.gallery-image {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .gallery-image {
+        height: 240px;
+    }
+}
+
 .timeline {
     list-style: none;
     margin: 0;
