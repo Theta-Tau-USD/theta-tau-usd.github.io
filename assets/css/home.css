@@ -32,20 +32,6 @@
     z-index: 2;
 }
 
-/* Logo above the chapter name in the hero. Change this one value to resize it. */
-.hero-logo {
-    height: 8rem;
-    width: auto;
-    display: block;
-    margin: 0 auto 1.75rem;
-}
-
-@media (max-width: 768px) {
-    .hero-logo {
-        height: 5.5rem;
-    }
-}
-
 .company-marquee {
     --marquee-gap: 2.5rem;
     position: relative;
