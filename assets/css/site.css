@@ -33,6 +33,14 @@ main {
     color: white !important;
 }
 
+/* The logo stands in for the chapter name, so it is sized to the navbar
+   rather than to the text. Change this one value to resize it. */
+.navbar-logo {
+    height: 2.5rem;
+    width: auto;
+    display: block;
+}
+
 .nav-link {
     font-weight: 500;
 }
